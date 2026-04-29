@@ -14,7 +14,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Entity
 @EqualsAndHashCode(callSuper = false)
-@Table(name = "user")
+@Table(name = "tb_user")
 public class User implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
